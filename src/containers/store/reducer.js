@@ -13,7 +13,7 @@ const reducer = (state = initialState, action) => {
             counter: state.counter - 1
         }
     }
-    if (action.type === 'Add 5') {
+    if (action.type === 'ADD5') {
         return {
             counter: state.counter + 5
         }
